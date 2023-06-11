@@ -19,5 +19,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  
+  <ItemGroup>
+    <InternalsVisibleTo Include="CountryGwpApi.Tests"/>
+  </ItemGroup>
 
 </Project>

@@ -38,3 +38,5 @@ void AddAverageGwpCalculator(WebApplicationBuilder webApplicationBuilder)
     webApplicationBuilder.Services.Decorate<IAverageGwpCalculator, AverageGwpCalculatorCacheDecorator>();
     webApplicationBuilder.Services.AddMemoryCache();
 }
+
+public partial class Program {}
